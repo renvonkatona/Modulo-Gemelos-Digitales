@@ -1,0 +1,13 @@
+---
+title: "PAPER GRUPO MESSI"
+authors:
+  - name: GRUPO MESSI
+    thanks: Ing. Palma
+    deparment: Universidad nacional de Cuyo
+    affiliation: Facultad de Ingenieria
+    location: Tecnicas y Herramientas Modernas
+date: "2024-05-15"
+output: html_document
+---
+
+

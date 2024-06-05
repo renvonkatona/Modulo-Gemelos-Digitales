@@ -1,0 +1,46 @@
+---
+title: "Paper grupo Messi"
+author: "Luciana Rubio"
+date: "2024-05-15"
+output: rticles::arxiv_article
+---
+
+
+
+## Gemelos digitales 
+
+En esta seccion se estudia las aplicaciones de los gemelos digitales, en nuestro caso la fuente de la cual sacamos informacion es la siguiente:  
+
+Bosque Peón, C. D. (2019). Los gemelos digitales en la industria 4.0.
+
+El caso analizado es la utilizacion de los gemelos digitales en la fuerza armada. Estos se aplicaron para hacer simulaciones de combate en la fragata sin poner en riesgo los recursos. Ademas utilizaron la impresion 3D para hacer las simulaciones, esto lo vincula con la industria 4.0. 
+
+A continuacion se analizara la situacion del problema, luego se planteara una hipotesis de la cual creemos que es la solucion y una tesis de la solucion del problema con demostraciones al respecto
+
+Situación del problema
+
+La industria de Defensa se enfrenta al reto de desarrollar sistemas de armas y vehículos complejos que sean eficaces, confiables y rentables. Tradicionalmente, el diseño, la producción y el mantenimiento de estos sistemas han sido procesos costosos y prolongados, que requieren de pruebas físicas extensas y a menudo riesgosas.
+
+Hipótesis
+
+La tecnología de gemelos digitales se presenta como una solución potencial a estos desafíos. Los gemelos digitales son representaciones virtuales precisas de sistemas físicos que pueden usarse para simular y analizar su comportamiento en diferentes escenarios.
+
+Tesis
+
+Los gemelos digitales pueden revolucionar la industria de Defensa al permitir:
+
+Diseño y producción más eficientes: Los gemelos digitales pueden usarse para probar y optimizar diseños virtualmente, antes de construir prototipos físicos. Esto puede reducir significativamente el tiempo y el costo de desarrollo.
+Mayor confiabilidad: Los gemelos digitales pueden usarse para simular condiciones extremas y fallas, lo que permite identificar y solucionar problemas de diseño antes de que afecten al sistema real.
+Mantenimiento predictivo: Los gemelos digitales pueden usarse para monitorear el estado de los sistemas en tiempo real y predecir fallas potenciales, lo que permite un mantenimiento preventivo más efectivo y reduce el tiempo de inactividad.
+Mejor toma de decisiones: Los gemelos digitales pueden usarse para generar datos y análisis que pueden ayudar a los operadores a tomar mejores decisiones sobre el uso y mantenimiento de los sistemas.
+Demostración
+
+El texto proporcionado describe dos ejemplos concretos de cómo se están utilizando los gemelos digitales en la industria de Defensa:
+
+Fragata F-110: Navantia está utilizando gemelos digitales para diseñar y desarrollar la fragata F-110 para la Armada española. Los gemelos digitales están permitiendo a la empresa simular diferentes escenarios operativos y evaluar el rendimiento del buque en condiciones extremas. Esto está ayudando a optimizar el diseño del buque y a identificar y solucionar problemas potenciales antes de que afecten al buque real.
+Vehículo de combate sobre ruedas 8x8 Dragón: Indra está utilizando gemelos digitales para desarrollar el vehículo de combate sobre ruedas 8x8 Dragón para el Ejército de Tierra español. Los gemelos digitales están permitiendo a la empresa simular diferentes escenarios de combate y evaluar el rendimiento del vehículo en diferentes condiciones. Esto está ayudando a optimizar el diseño del vehículo y a garantizar que cumpla con los requisitos del Ejército de Tierra.
+Estos ejemplos demuestran el potencial de los gemelos digitales para transformar la industria de Defensa. A medida que la tecnología continúa desarrollándose, es probable que los gemelos digitales se vuelvan aún más importantes para el diseño, la producción y el mantenimiento de sistemas de armas y vehículos complejos.
+
+Conclusión
+
+Los gemelos digitales tienen el potencial de revolucionar la industria de Defensa al permitir el diseño, la producción y el mantenimiento más eficientes, confiables y rentables de sistemas de armas y vehículos complejos. A medida que la tecnología continúa desarrollándose, es probable que los gemelos digitales desempeñen un papel cada vez más importante en el futuro de la Defensa.

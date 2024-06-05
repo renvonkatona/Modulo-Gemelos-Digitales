@@ -1,0 +1,87 @@
+---
+title: "Método probit"
+author: "Grupo Messi" 
+date: "2024-05-22"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## ¿Qué es el modelo Probit?
+
+El modelo probit trata de estimar la probabilidad de que un elemento con determinadas variables se encuentre en uno de dos grupos.
+
+-   El modelo Probit es un modelo de regresión lineal generalizado (GLM) que utiliza la distribución normal estándar como función de enlace.
+-   A diferencia de la regresión lineal tradicional, el modelo Probit no asume que la variable dependiente siga una distribución normal.
+-   Se utiliza para modelar variables dependientes binarias, mientras que la regresión lineal se utiliza para modelar variables dependientes continuas.
+-   Es una tecnica estadistica utilizada en economia y en ciencias sociales.
+
+![](https://economiahd.com/wp-content/uploads/2023/08/imagen-economia-hd-1.png?w=640)
+
+## Supuestos del modelo Probit
+
+-   La variable dependiente es binaria (dos categorías).
+-   Las variables independientes pueden ser continuas o categóricas.
+-   Los errores del modelo son independientes y siguen una distribución normal estándar.
+-   No hay multicolinealidad entre las variables independientes.
+
+## Estimación del modelo Probit
+
+El modelo Probit se estima utilizando el método de máxima verosimilitud. El software estadístico como R y Stata proporcionan funciones para estimar modelos Probit. La salida del modelo Probit incluye coeficientes de regresión, errores estándar, valores z y niveles de significancia.
+
+-   Los coeficientes de regresión del modelo Probit representan el cambio en la probabilidad de que el evento ocurra por una unidad de cambio en la variable independiente correspondiente.
+-   Un coeficiente de regresión positivo indica que un aumento en la variable independiente aumenta la probabilidad de que el evento ocurra. Y viceverza.
+
+## Ejemplo de aplicación del modelo Probit
+
+Ejemplo Práctico Predicción de la probabilidad de que un paciente desarrolle diabetes.
+
+-   Datos:
+
+-   Edad: 35 años.
+
+-   Sexo: Mujer.
+
+-   Historial médico: Presión arterial alta.
+
+-   Estilo de vida: Sedentaria, dieta rica en azúcares.
+
+Pasos:
+
+1- Definir la variable dependiente: ¿Desarrolla diabetes el paciente? (Sí/No)
+
+2- Identificar las variables independientes: Edad, sexo, historial médico, estilo de vida.
+
+3- Recopilar datos: Obtener información sobre las variables independientes para un grupo de pacientes.
+
+4- Ajustar el modelo probit: Utilizar un software estadístico para ajustar el modelo probit a los datos.
+
+5- Interpretar los resultados: El modelo probit proporcionará coeficientes para cada variable independiente. Estos coeficientes indican la relación entre cada variable independiente y la probabilidad de desarrollar diabetes.
+
+6- Hacer predicciones: Utilizar el modelo probit para predecir la probabilidad de que un nuevo paciente desarrolle diabetes, en función de sus características individuales.
+
+Para realizar el codigo se debe:
+
+1.  Cargar los datos (asumiendo que están en un vector o data frame llamado "paciente")
+
+2.  Preparar los datos (por ejemplo, codificar variables categóricas)
+
+3.  Ajustar el modelo Probit
+
+modelo_probit \<- glm(diabetes \~ edad + sexo + historial_medico + estilo_vida, data = paciente, family = binomial())
+
+4.  Interpretar los resultados summary(modelo_probit)
+
+## Conclusiones
+
+-   El método probit es una herramienta poderosa para modelar decisiones binarias.
+
+-   El modelo Probit se puede implementar en software estadístico como R y Stata
+
+-   Su aplicación abarca múltiples campos y proporciona una manera precisa de entender relaciones binarias en los datos.
+
+-   Es importante verificar que se cumplan los supuestos del modelo Probit antes de realizar el análisis.
+
+# MUCHAS GRACIAS
